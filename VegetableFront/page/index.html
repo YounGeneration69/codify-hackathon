@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.6/js/standalone/selectize.min.js"
+      integrity="sha256-+C0A5Ilqmu4QcSPxrlGpaZxJ04VjsRjKu+G82kl5UJk="
+      crossorigin="anonymous"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.6/css/selectize.bootstrap3.min.css"
+      integrity="sha256-ze/OEYGcFbPRmvCnrSeKbRTtjG4vGLHXgOqsyLFTRjg="
+      crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <link rel="stylesheet" href="/style/style.css" />
+</head>
+    
+<body>
+    <header>
+        <div class="container">
+            <div class="box">
+                <h1><a  class="logo" href="./index.html">EduSearch</a></h1>
+                <button class="btnLogin-popup" onclick="isa()" >Login</button>
+            </div>
+        </div>
+    </header>
+    <div class="wrapper-box" id="elem" >
+    <div class="wrapper">
+        <sapn onclick="is()" class="icon-close"><ion-icon name="close"></ion-icon></sapn>
+        <div class="form-box login">
+        <h2>Login</h2>
+        <form action="#">
+            <div class="input-box">
+                <span id="mail" class="icon"><ion-icon name="mail"></ion-icon></span>
+                <input class="email" type="email">
+                <label>Email</label>
+            </div>
+            <div class="input-box">
+                <span id="pssword" class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                <input class="password" type="password">
+                <label>Pasword</label>
+            </div>
+            <div class="remember-forgot">
+                <label><input type="checkbox">Remember me</label>
+                <a href="#">Forgot password?</a>
+            </div> 
+            <button type="submit" class="btn" onclick="info()">Login</button>
+            <div class="login-register">
+                <p>Don't have an account?<a href="/page/registr/registr.html" class="register-link">Register</a></p>
+            </div>
+        </form>
+        </div>
+        </div>
+        </div>
+    <section onclick="is()">
+        <div class="container">
+            <div class="island">
+                <div class="inputs">
+                    <h1 class="section_title">WELCOME</h1>   
+                <div class="choose">
+                    <img class="arrow" src="/img/arrow-clip-art-arrow-png-inside-arrow-clip-art-510724-removebg-preview.png" alt="">
+                    <h1 class="section_title">Choose</h1>
+                    <img class="arrow_ar" src="/img/arrow-clip-art-arrow-png-inside-arrow-clip-art-510724-removebg-preview.png" alt="">
+                    </div> 
+                <div class="input">
+                <select name="links" onchange="location = this.value"  id="select-state" placeholder="Выберите направление школы...">
+                    <option value="">Выберите направление школы...</option>
+                    <optgroup label="Школы в Киргизии">
+                        <option value="higher.html">Гимназии</option>
+                        <option value="licey.html">Лицей</option>
+                        <option value="compl.html">Центр и Комплекс</option>
+                        <option value="named.html">Авторские школы</option>
+                        <option value="edc.html">Заведения доп. образозвания</option>
+                        <option value="corec.html">Коррекционные школы</option>
+                        <option value="special.html">Специализированные школы</option>
+                        <option value="avto.html">Авто школы</option>
+                  </select>
+                  <hr class="line">
+                    <select onchange="location = this.value;" id="" placeholder="Выберите ВУЗ">
+                        <option value="">Select a hi...</option>
+                        <optgroup label="Вузы в Киргизии">
+                            <option value="classic.html">Классические университеты</option>
+                            <option value="otrsl.html">Отраслевые университеты</option>
+                            <option value="inst.html">Институты </option>
+                    </option>
+                </select>
+            </div>
+                </div>
+                <div class="grid">
+                  <div> <img src="https://auca.kg/uploads/95143061_10158127733350629_4923552995473358848_o.jpg"> </div>
+                  <div> <img class="island_img" src="http://st-1.akipress.org/127/.storage/limon2/images/march2015/dc8695c306ae9e0454ccbe863d1945ed.jpg" alt=""></div>
+                  <div> <img src="https://st-1.akipress.org/st_runews/8/1460928.1.1532150260.jpg"></div>
+                  
+              </div>
+            </div>
+                      </div>
+    </section>
+    <script src="/js/main.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/regist.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="box">
+                <h1><a  class="logo" href="/page/index.html">EduSearch</a></h1>
+                <button class="btnLogin-popup" onclick="isa()" >Login</button>
+            </div>
+        </div>
+    </header>
+    <div class="wrapper-box" id="elem" >
+        <div class="wrapper">
+            <div class="form-box login">
+            <h2>Register</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span id="mail" class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input class="first_name" type="text">
+                    <label>First Name</label>
+                </div>
+                <div class="input-box">
+                    <span id="mail" class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input class="last_name" type="text">
+                    <label>Last Name</label>
+                </div>
+                <div class="input-box">
+                    <span id="mail" class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input class="email" type="email">
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span id="pssword" class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input class="password" type="password">
+                    <label>Pasword</label>
+                </div>
+                <div class="remember-forgot">
+                </div> 
+                <button type="submit" class="btn" onclick="regist()">Register</button>
+                <div class="login-register">
+                    <p>have an account?<a href="/page/index.html" class="register-link">Login</p>
+                </div>
+            </form>
+            </div>
+            </div>
+            </div>
+    <script src="/js/regist.js"></script>
+</body>
+</html>
