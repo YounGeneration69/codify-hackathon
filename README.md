@@ -38,11 +38,11 @@
   
  
 <!--START_SECTION:activity-->
-1. 🎨 Working on design of Website
-2. 🧩 Creating structure of code
-3. 💾 Using Firebase libraries
-4. 🕸  Google
-5. 😎 Enjoy playing against Bot
+1. 🚀 Скачиваем папку "secure"
+2. 🚀 Настроим application properties (data source)
+3. 🚀 Заходим в папку "secure"
+4. 🚀 И с терминала запускаем команду mvn spring-boot:run
+5. 🚀 Вуаля ваш сервер запустился на порте 8080 (admin пароль: user@gmail.com логин: user)
 <!--END_SECTION:activity-->
 
 </details>
